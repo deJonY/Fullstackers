@@ -1,0 +1,775 @@
+/* Navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 6px 24px 0 #202D4C0A;
+}
+.collapse{
+    flex-grow: 1;
+}
+.navbar-brand{
+    margin-right: 60px;
+}
+.nav-link{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #282828;
+    text-decoration: none;
+}
+.nav-button{
+    width: 215px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #00C508;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-button-link{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header */
+
+.centerText{
+    width: 115px;
+    height: 23px;
+    border-radius: 47px;
+    border: none;
+    background: #E6FAEE;
+    margin: 40px auto 20px;
+    text-align: center;
+    padding: 5px;
+}
+.miniText1{
+    font-family: "Golos Text", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+
+}
+.centerTitle1{
+    font-family: "Mona Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    width: 900px;
+}
+.centerText2{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #7e7e7e;
+    margin: 12px auto 43px;
+    width: 65%;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.header-button1{
+    width: 278px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #00C508;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header-button1-link{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-button2{
+    width: 278px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+    border: 1px solid #00C508
+}
+.header-button2-link{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00C508;
+    text-decoration: none;
+}
+.brends{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.swiper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.swiper-slide{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+.swiper-slide img {
+    width: 240px;
+}
+
+.logo-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+.carousel-track1 {
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    animation: scroll 20s linear infinite;
+}
+.brend-img {
+    width: 240px;
+    /*margin: 0 10px;*/
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Section 1 */
+
+.section1{
+    background: linear-gradient(97.15deg, #202D4C 10.55%, #132141 92.66%);
+}
+.paddingTB{
+    padding: 60px 0;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.s1-Title{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #00C508;
+    margin-left: 140px;
+}
+.s1-Text{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #BAC5E3;
+    width: 45%;
+    margin-bottom: 45px;
+    margin-left: 140px;
+}
+.box{
+    width: 500px;
+    height: 510px;
+    border-radius: 24px ;
+    border: 1px solid #293C6C;
+    background: #1F2F57;
+    padding: 25px;
+
+    position: relative;
+    z-index: 1;
+}
+.mode{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFCC19;
+    margin-bottom: 20px;
+}
+.mode-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.month{
+    font-family: "Golos Text", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #7483A9;
+    margin: 0 0 10px 0;
+}
+.number{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+.col-line{
+    width: 1px;
+    height: 65px;
+    background: #7483A9;
+}
+.mini-box{
+    width: 458px;
+    height: 283px;
+    border-radius: 16px;
+    background: #2A3E6F;
+    border: none;
+    padding: 16px 24px;
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+.imkon{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.icon{
+    margin-bottom: 10px;
+}
+.Text{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+.s1-button{
+    width: 142px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background: #00C508;
+
+    float: right;
+}
+.s1-button-link{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.circle-img{
+    position: absolute;
+    top: 890px;
+    right: 170px;
+    z-index: 0;
+}
+
+/* Section 2 */
+
+.section2{
+    margin-bottom: 80px;
+}
+.title-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 10%;
+}
+.s2-mini-title{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #BFBFBF;
+    margin: 0;
+}
+.s2-title{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #002930;
+}
+.s2-buttons{
+    border-radius: 70px;
+    border: 1px solid #C2EFD4;
+    background: #C2EFD4;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.s2-btn1{
+    width: 98px;
+    height: 40px;
+    border: none;
+    border-radius: 59px;
+    background: #00C508;
+    box-shadow: 0 8px 28px -2px #00C50838;
+}
+.s2-btn1-link{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.s2-btn2{
+    width: 98px;
+    height: 40px;
+    border: none;
+    border-radius: 59px;
+    box-shadow: 0 8px 28px -2px #00C50838;
+    background: transparent;
+}
+.s2-btn2-link{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.s2-cards{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    gap: 40px;
+}
+.s2-card{
+    width: 486px;
+    height: 449px;
+    border-radius: 16px;
+    border: 1px solid #F4F4F4;
+    background: #F4F4F4;
+    padding: 25px;
+}
+.s2-icon-text{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.s2-card-title{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #000000;
+}
+.s2-texts{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7E7E7E;
+    /*margin-bottom: 100px;*/
+
+    flex-grow: 1;
+}
+.s2-modul-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.info-title{
+    font-family: "Golos Text", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #BFBFBF;
+    margin-bottom: 5px;
+}
+.info-number{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #202D4C;
+}
+.s2-line{
+    width: 1px;
+    height: 55px;
+    background: #EAEAEA;
+}
+.s2-info-button{
+    width: 174px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid #00C508;
+    background: #00C508;
+    /*margin-top: 25px;*/
+}
+.s2-info-button-link{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.card-margin-top{
+    margin-top: 40px;
+}
+
+.marginBottom90{
+    margin-bottom: 98px;
+}
+.marginBottom75{
+    margin-bottom: 75px;
+}
+
+/* Section 3 */
+
+.s3-Title1{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+}
+.s3-Text{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin: 12px auto 24px;
+    width: 800px;
+    color: #7E7E7E;
+}
+.youtubeVideo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+}
+.playVideo1{
+    position: absolute;
+    margin-top: 50px;
+    left: 370px;
+}
+.playVideo2{
+    position: absolute;
+    margin-top: 50px;
+}
+.playVideo3{
+    position: absolute;
+    right: 370px;
+    margin-top: 50px;
+}
+.s3-Title2{
+    margin-top: 90px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #BFBFBF;
+}
+.s3-icon{
+    width: 90px;
+}
+
+.carousel-track {
+    display: flex;
+    align-self: center;
+    gap: 40px;
+    animation: icons 20s linear infinite;
+}
+@keyframes icons {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.icon__Text{
+    width: 160px;
+    text-align: center;
+    margin-top: 50px;
+}
+.s3-icon{
+    width: 80px;
+}
+.s3-Text2{
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #202D4C;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.practicum{
+    background: linear-gradient(94.48deg, #202D4C 10.55%, #132141 92.66%);
+    width: 1100px;
+    height: 350px;
+    border-radius: 24px;
+    padding: 40px 50px;
+    margin: 200px auto 0;
+}
+.practicum-title1{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #00C508;
+}
+.practicum-text1{
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 22px 0;
+    color: #BAC5E3;
+    width: 500px;
+}
+.practicum-title2{
+    font-family: "Golos Text", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6884CB;
+    margin-bottom: 7px;
+}
+.practicum-text2{
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #BAC5E3;
+    width: 540px;
+}
+.student{
+    position: relative;
+    left: 60px;
+    bottom: 474px;
+    z-index: 0;
+}
+.practice{
+    position: relative;
+    bottom: 345px;
+    left: 90.5%;
+}
+.green-circle{
+    position: relative;
+    bottom: 230px;
+    left: 73%;
+    z-index: 1;
+}
+.yellow-line{
+    position: relative;
+    bottom: 382px;
+    left: 200px;
+}
+
+/* Mentor */
+
+.mentors{
+    margin: 160px auto;
+    padding: 0 7%;
+}
+.m-title1{
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #BFBFBF;
+    margin-bottom: 4px;
+}
+.m-title2{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #00C508;
+    width: 250px;
+    margin: 0 0 60px;
+}
+.swiper-button-next::after,
+.swiper-button-next::before {
+    content: '';
+    font-size: 20px;
+    color: black;
+}
+.swiper-button-prev::after,
+.swiper-button-prev::before {
+    content: '';
+    font-size: 20px;
+    color: black;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 46px;
+    height: 46px;
+    border-radius: 28px;
+    border: 1px solid #EAEAEA;
+    color: #000000;
+    font-size: 22px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.swiper-button-next{
+    position: relative;
+    /*margin: 0 0 100px 0;*/
+    bottom: 405px;
+    left: 93%;
+}
+.swiper-button-prev{
+    position: relative;
+    /*margin: 0 0 100px 0;*/
+    bottom: 430px;
+    left: 87%;
+}
+
+/* Footer */
+
+.footer{
+    background: linear-gradient(92.67deg, #202D4C 10.55%, #132141 92.66%);
+}
+.paddingY{
+    padding: 40px 7% 20px;
+}
+.footer-logo-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+.footer-links, .footer-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.f-link-box{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background: #00C508;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-link-box a{
+    margin-bottom: 5px;
+}
+.f-btn{
+    width: 180px;
+    height: 48px;
+    border-radius: 40px;
+    border: 1px solid #00C508;
+    background: #00C508;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.f-btn-link{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.f-line1{
+    margin: 40px auto;
+    border: 1px solid #7483A9;
+}
+.f-pdp-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.f-pdp-link{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.f-line2{
+    margin: 40px auto 15px;
+    border: 1px solid #7483A9;
+}
+.f-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.f-last-text1, .f-last-text2{
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 0;
+}
